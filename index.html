@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>ASPLABEL</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>//firebase script
+    <![endif]-->
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAzqd-E3xcyaxd2_wG9p__HwZcR9SmeXWw",
+            authDomain: "meetrixweb.firebaseapp.com",
+            databaseURL: "https://meetrixweb.firebaseio.com",
+            projectId: "meetrixweb",
+            storageBucket: "",
+            messagingSenderId: "51993953473"
+        };
+        firebase.initializeApp(config);
+    </script>
+    
+</head> 
+
+<body>
+
+    <header id="header" class="header">  
+        <div class="container">       
+            <h1 class="logo">
+                <a class="scrollto" href="#hero">
+                    <span class="text"><span class="highlight"></a>
+                    <img src="assets/images/logoAsplabel.png" width="120"  alt="image">
+            </h1><!--//logo-->
+            <nav class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item"><a class="scrollto" href="#about">Nosotros</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#produccion">Producción</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#testimonials">Beneficios</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Convenios</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#contact">Contacto</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div id="hero" class="hero-section">
+
+        <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="10000">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+
+				<div class="item item-1 active">
+					<div class="item-content container">
+						<div class="item-content-inner">
+				            <h2 class="heading">Somos la agricultura con identidad y sello colombiano</h2>
+    					</div><!--//item-content-inner-->
+					</div>
+				</div><!--//item-->
+            </div><!--//carousel-inner-->
+
+		</div><!--//carousel-->
+    </div><!--//hero-->
+
+    <div id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title">Quiénes somos?</h2>
+            <p class="intro">Somos una empresa de exportación de plátano verde pelado, donde nuestro pilar más importante son las mujeres colombianas cabeza de familia, que hacen parte de la producción y crecimiento, generando más desarrollo económico en nuestra región.</p>
+            <video width="400" height="500" controls>
+                <source src="assets/videos/asplabel-experiencia.mp4" type="video/mp4">
+            </video>
+        </div><!--//container-->
+    </div><!--//about-section-->
+    <div id="produccion" class="production-section">
+        <div class="container text-center">
+            <h2 class="section-title">Producción</h2>
+            
+          
+
+            <div class="items-wrapper row" style="margin-bottom: 50px;">
+                <div class="item col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <div class="figure-holder" style="margin-bottom: 20px;">
+                            <img class="figure-image" width="200" height="200" src="assets/images/produccion1.png" alt="image">
+                        </div>
+                        <div class="item-desc" style="color: white;">
+                            La materia prima se clasifica en tres tipos:
+                        </div>
+                        <div class="item-desc" style="color: white;">
+                            Primera calidad, segunda calidad y tercera calidad
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <div class="figure-holder" style="margin-bottom: 20px;">
+                            <img class="figure-image"  width="200" height="200" src="assets/images/produccion2.png" alt="image">
+                        </div>
+                        <div class="item-desc" style="color: white;">Se pesa el producto, se almacena temporalmente y luego pasa al tanque, este solo tiene agua, sirve para climatizar el producto</div>
+                    </div>
+                </div><!--//item-->
+                <div class="item col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <div class="figure-holder" style="margin-bottom: 20px;">
+                            <img class="figure-image" width="200" height="200" src="assets/images/produccion3.png" alt="image">
+                        </div>
+                        <div class="item-desc" style="color: white;">
+                            Se procede a desmanar el producto, este pasa a las tres bandas, central superior e inferior, la central reparte el producto a todas las operarias.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+            </div><!--//items-wrapper-->
+            <p class="intro">Nuestras operarias están debidamente capacitadas para identificar y clasificar la materia prima en cualquiera de los tres grupos antes mencionados: El plátano ya pelado pasa a una de las bandas transversales llevándolo a un tanque lleno de agua y acido cítrico, este hace un recubrimiento del producto para evitar su descomposición, o bien que se madure, este pasa a ser empacado en bolsas de 25 kilos.</p>
+        </div><!--//container-->
+    </div><!--//about-section-->
+
+    <div id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title text-center">Nuestro Producto - Plátano verde</h2>
+            <div class="item center-block">
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>Mejora la salud cardiovascular.</p>
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item center-block">
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>Beneficia el aparato muscular.</p>
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item center-block">
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>Brindan energîa de calidad.</p>
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item center-block">
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>El consumo constante de alimentos como el plátano verde puede ayudar a disminuir notablemente la producción del colesterol LDL.</p>
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+        </div><!--//item-->
+        <div class="item center-block">
+            <div class="quote-holder">
+                <blockquote class="quote">
+                    <p>El plátano verde también es capaz de regular los niveles de glucosa dentro del cuerpo, lo que ayuda a prevenir la aparición de la diabetes tipo II.</p>
+                </blockquote>
+            </div><!--//quote-holder-->
+        </div><!--//item-->
+        </div><!--//container-->
+    </div><!--//testimonials-->
+
+    <div id="features" class="features-section">
+        <div class="container text-center">
+            <h2 class="section-title">Convenios</h2>
+            <p class="intro">
+                Desde el año 2010 PEPSICO es su aliado comercial, compañia líder del sector de alimentos y bebidas en el mundo.
+                Junto a este aliado se han tenido varios proyectos de bienestar social y laboral, como lo son una zona social para colaboradores, cofinanciación 
+                para las bandas automáticas en la plata, y un proyecto futuro el cual es un jardín infantil para los hijos de los colaboradores.
+            </p>
+
+            <a href="http://www.pepsico.com.co/" target="_blank"><img width="300" src="assets/images/pepsico-logo.png" alt="screenshot" ></a>
+        </div>
+    </div>
+    <div id="contact" class="contact-section">
+        <div class="container text-center">
+            <div class="row">
+                <img width="100" src="assets/images/palm-icon.jpeg" alt="screenshot" style="margin-bottom: 10px;">
+                <h3 class="section-title">RISARALDA, COLOMBIA</h3>
+                <div class="contact-content">
+                    <p>Calle 7 N° 11-23, de Belén de Umbría</p>
+                    <p>Tel: (6) 3527549 | 314-7989087</p>
+                    <p>gerencia@asplabel.com</p>
+                </div>
+            </div>
+            <span class="actions">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/asplabel" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/asplabel/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/asplabel" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </div>
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>     
+    <script type="text/javascript" src="assets/js/main.js"></script> 
+
+</body>
+</html>
